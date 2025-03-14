@@ -11,7 +11,7 @@ This repository contains the resources and results from a study investigating th
 The `prompt templates` folder includes templates used in projects Python and Java:
 - **10 templates** for **test smell detection**
 - **10 templates** for **test smell refactoring**
-- 
+
 These templates were used to guide the analysis and refactoring processes.
 
 ### Dataset
