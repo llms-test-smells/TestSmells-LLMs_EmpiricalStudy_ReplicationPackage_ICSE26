@@ -23,10 +23,9 @@ The `dataset` folder contains the URLs of the repositories used in this study, w
 ### Results
 
 The `results` folder contains the outcomes of the refactoring process. Each project was refactored with respect to a specific type of test smell, and the refactoring was performed using all LLMs. The folder includes:
-- **Changes in code coverage metrics**: Analysis of how refactoring impacted code coverage _(results/coverage)_.
-- **Mitigated and introduced test smells**: Documentation of test smells that were resolved or introduced during the refactoring process _(results/final refactoring results)_.
-- **Comparative results**: Outcomes from refactoring performed by each LLM, enabling a comparison of their effectiveness _(results/coverage)_.
-- **The projects refactored by each LLM**
+- **Changes in code coverage metrics**: Analysis of how refactoring impacted code coverage for[_Python_](./results/coverage/python/final%20aggregated%20results/) and [_Java_](./results/coverage/java/final%20aggregated%20results/).
+- **Mitigated and introduced test smells**: Documentation of test smells that were resolved or introduced during the refactoring process [_(results/final refactoring results)_](./results/final%20refactoring%20results/).
+- **The projects refactored by each LLM**: Outcomes from refactoring performed by each LLM, enabling a comparison of their effectiveness. For [Python](./results/coverage/python/) and [Java](./results/coverage/java/).
 >The *final* results are those outcomes achieved with the best prompt template.
 
 ### Source Code
