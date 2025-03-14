@@ -36,7 +36,6 @@ The `src` folder includes the scripts used to:
 - Send prompts to the models.
 - Save and process the results.
 
-Each script is accompanied by a dedicated `README` file with detailed instructions on how to execute the code.
 
 ## Usage
 
