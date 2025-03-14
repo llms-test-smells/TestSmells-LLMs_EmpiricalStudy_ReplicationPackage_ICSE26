@@ -27,6 +27,7 @@ The `results` folder contains the outcomes of the refactoring process. Each proj
 - **Mitigated and introduced test smells**: Documentation of test smells that were resolved or introduced during the refactoring process.
 - **Comparative results**: Outcomes from refactoring performed by each LLM, enabling a comparison of their effectiveness.
 - **The projects refactored by each LLM**
+>The *final* results are those outcomes achieved with the best prompt template.
 
 ### Source Code
 
