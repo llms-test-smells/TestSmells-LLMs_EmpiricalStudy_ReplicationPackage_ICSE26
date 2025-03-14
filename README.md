@@ -1,8 +1,8 @@
-# TestSmells-LLMs_EmpiricalStudy_ReplicationPackage
+# Supplementary Material of "TestSmells-LLMs_EmpiricalStudy_ReplicationPackage" paper
 
 # Overview
 
-This repository contains the resources and results from a study investigating the impact of refactoring performed by Large Language Models on test smells, which include GPT-4, Gemini 1.5 Pro and LLaMA 3 70B. The study involved evaluating various prompt templates for detecting and refactoring test smells, analyzing the outcomes, assessing the impact on code coverage metrics, and documenting the entire process.
+This repository contains the resources and results from a study that investigates the impact of refactoring performed by Large Language Models on test smells, which include GPT-4, Gemini 1.5 Pro and LLaMA 3 70B models. The study involved evaluating various prompt templates for detecting and refactoring test smells, analyzing the outcomes, assessing the impact on code coverage metrics, and documenting the entire process.
 
 ## Repository Structure
 
@@ -11,7 +11,7 @@ This repository contains the resources and results from a study investigating th
 The `prompt templates` folder includes templates used in projects Python and Java:
 - **10 templates** for **test smell detection**
 - **10 templates** for **test smell refactoring**
->All text files
+>All text files. The prompt versions were numbered from version 0 to 4, followed by the abbreviation of the prompt techniques used
 
 These templates were used to guide the analysis and refactoring processes.
 
@@ -23,9 +23,9 @@ The `dataset` folder contains the URLs of the repositories used in this study, w
 ### Results
 
 The `results` folder contains the outcomes of the refactoring process. Each project was refactored with respect to a specific type of test smell, and the refactoring was performed using all LLMs. The folder includes:
-- **Changes in code coverage metrics**: Analysis of how refactoring impacted code coverage.
-- **Mitigated and introduced test smells**: Documentation of test smells that were resolved or introduced during the refactoring process.
-- **Comparative results**: Outcomes from refactoring performed by each LLM, enabling a comparison of their effectiveness.
+- **Changes in code coverage metrics**: Analysis of how refactoring impacted code coverage _(results/coverage)_.
+- **Mitigated and introduced test smells**: Documentation of test smells that were resolved or introduced during the refactoring process _(results/final refactoring results)_.
+- **Comparative results**: Outcomes from refactoring performed by each LLM, enabling a comparison of their effectiveness _(results/coverage)_.
 - **The projects refactored by each LLM**
 >The *final* results are those outcomes achieved with the best prompt template.
 
